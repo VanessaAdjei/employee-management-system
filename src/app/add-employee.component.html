@@ -1,0 +1,10 @@
+<form (ngSubmit)="addEmployee()">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" [(ngModel)]="newEmployee.name" required>
+  
+    <label for="department">Department:</label>
+    <input type="text" id="department" name="department" [(ngModel)]="newEmployee.department" required>
+  
+    <button type="submit">Add Employee</button>
+  </form>
+  
